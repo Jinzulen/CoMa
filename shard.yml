@@ -1,0 +1,15 @@
+name: COMA
+version: 0.1.0
+license: Apache-2.0
+description: Grabs Moroccan Covid-19 statistics.
+
+authors:
+  - Jinzulen <Jinzu@protonmail.ch>
+
+targets:
+  coma:
+    main: coma.cr
+
+dependencies:
+  crystagiri:
+    github: madeindjs/crystagiri
